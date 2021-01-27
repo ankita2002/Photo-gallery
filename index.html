@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <title>JavaScript Exercise</title>
+
+        <style>
+            body{
+                background: #222;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:#fff;
+            }
+            .thumbnails img {
+                height: 80px;
+                border: 4px solid #555;
+                padding: 1px;
+                margin: 0 10px 10px 0;
+            }
+            .thumbnails img:hover {
+                border: 4px solid #00ccff;
+            }
+            .preview img{
+                border: 4px solid #444;
+                padding: 1px;
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container" align="center">
+            <h1>Ariana Grande</h1>
+        </br>
+
+            <div class="thumbnails">
+                <img onmouseover="preview.src=Ari1.src" name="Ari1" src="Ari1.png" />
+                <img onmouseover="preview.src=Ari2.src" name="Ari2" src="Ari2.jpg" />
+                <img onmouseover="preview.src=Ari3.src" name="Ari3" src="Ari3.jpg" />
+                <img onmouseover="preview.src=Ari4.src" name="Ari4" src="Ari4.jpg" />
+                <img onmouseover="preview.src=Ari5.src" name="Ari5" src="Ari5.jpg" />
+            </div>
+        </br>
+            <div class="preview" align="center">
+                <img name = "preview" src="Ari5.jpg" />
+            </div>
+        </div>
+    </body>
+</html>
